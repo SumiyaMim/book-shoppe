@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}
+body{
+    background-color: rgb(244, 253, 255);
+}
+nav{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+nav h3{
+    margin-right: 60%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-link {
+    color: white;
+    margin: 0 20px 0 0;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+.nav-link:hover{
+    color: rgb(51, 145, 177);
+}
+nav .active{
+    color: rgb(51, 168, 207);
+}
+main{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.book{
+    padding: 30px;
+    text-align: center;
+}
+p{
+    font-size: 15px;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+table{
+    margin: 30px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid;
+    padding: 12px;
+    font-size: 14px;
+}
+th{
+    border: 1px solid;
+    padding: 8px;
+}
+button{
+    width: 70px;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(51, 145, 177);
+    color: white;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.form-field{
+    margin: 10px;
+}
+input{
+    width: 400px;
+    padding: 8px;
+    outline: none;
+    border: 1.3px solid rgb(169, 169, 169);
+    border-radius: 4px;
+}
+.btn{
+    padding: 8px;
+    width: 110px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.btn_update{
+    padding: 8px;
+    width: 130px;
+    font-size: 15px;
+    font-weight: 500;
+}
+footer{
+    background-color: black;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #bfbfbf;
+}
+footer p{
+    font-size: 12px;
+}
